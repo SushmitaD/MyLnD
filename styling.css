@@ -1,0 +1,250 @@
+body{
+   
+    border: 2px;
+    padding: 10px;
+    background: #efeff5;
+    font-family: Calibri, "Times New Roman", "serif";
+}
+
+.container{
+     margin:0% 20%;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin:30px;
+    border: 0px;
+    padding: 5px;
+    font-size: 50px;
+    clear:both;
+}
+
+.top-bar{
+    line-height: 35px;
+    display: block;
+    color: #ffffff;
+    padding: 1%;
+    margin: 10px 0px;
+    text-align: center;
+    min-width: 120px;
+    font-size: 14px;
+    font-family: arial;
+    width: 100%;
+    background-color: #005490;
+}
+
+ul{
+    padding: 0%;
+    list-style: none;
+}
+
+li{
+    display: list-item;
+    float: left;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 10%;
+    background-color: #005490;
+}
+
+.top-bar a{
+    color: white;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.table{
+    display: block;
+    font-weight: lighter;
+    margin:10px;
+    border: 5px;
+    padding: 15px;
+    font-size: 20px;    
+}
+
+.tableRow{
+    margin: 1px;
+    border-bottom: 2px solid #d9d9d9;
+    padding: 15px;
+    width: 100%;
+}
+
+.tableHeader{
+    border-bottom: 5px solid #d9d9d9;
+    border-top: 2px solid #d9d9d9;
+    text-transform: uppercase;
+    font-weight: lighter;
+    width: 98%;
+}
+
+.innerElement{
+    display: inline-block;
+    padding-right: 29px;
+    vertical-align: middle;
+    width: 30%;
+}
+
+.innerElementRight{
+    display: inline-block;
+    margin: 1%;
+    vertical-align: middle;
+    width: 12%;
+    text-align: center;
+}
+
+.innerElementDesc{
+    display: inline-block;
+    margin:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.innerElementImg{
+    width: 19%;
+    height: 1%;
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.headerElement1{
+    display: inline-block;
+    margin:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.headerElement{
+    display: inline-block;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    float: right;
+    width: 9%;
+}
+
+.mainDesc{
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+
+.subDesc{
+    font-size: 15px;
+    margin: 0%; 
+}
+
+.mainPaymentDesc{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 2px;
+}
+
+input{
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.35);
+}
+
+.price{
+    font-weight: bold;
+}
+
+
+.itemOptions{
+    vertical-align: bottom;
+    font-size: 0.75em;
+}
+
+.itemDesc{
+    vertical-align: top;
+}
+
+.siteInfo
+{
+    display: inline-block;
+    position: relative;
+    width: 18%;
+    left: 1%;
+    float: left;
+    margin-top: 3%;
+}
+
+.payment{
+    border-top: 5px solid #d9d9d9;
+    padding: 0px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    position: relative;
+    width: 98%;
+    left: -3%;
+    margin-left: 5%;
+}
+
+.continueShopping input, .payment input{
+    width: 10em; 
+    height: 3em;    
+}
+
+.paymentTable{
+    position: relative;
+    width: 75%;
+    left: 17%;
+    border-bottom: 5px solid #d9d9d9;
+    width: 65%;
+    float: left;
+}
+
+.cell1{
+    display: inline-block;
+    text-align: left;
+    float:left;
+}
+
+.cell2{
+    display: inline-block;
+    text-align: right;
+    float:right;
+}
+
+.tableRowPayment{
+    display: inline-block;
+    width:100%;
+}
+
+.continueShopping{
+    position: relative;
+    text-align: right;
+    clear: both;
+    padding-top: 4%;
+    
+}
+
+#checkout{
+    background-color: #005490;
+    text-align: center;
+    color: white;
+}
+
+.tableRowPaymentFirst{
+    display:inline-block;    
+    border-bottom: 5px solid #d9d9d9; 
+    width: 100%;
+    margin-top:5%;  
+}
+
+#promotionCode{
+    width: 55%;
+}
+
+.clearFloat{
+    clear:both;
+}
+
